@@ -11,6 +11,7 @@ ___INFO___
 {
   "displayName": "CJ Affiliate Conversion Tag",
   "description": "The purpose of this tag is to inform CJ Affiliate of user activity across the site allowing for tracking of transaction or lead information.",
+  "categories": ["AFFILIATE_MARKETING", "ADVERTISING"],
   "securityGroups": [],
   "id": "ac",
   "type": "TAG",
