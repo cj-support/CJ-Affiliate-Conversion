@@ -1,5 +1,5 @@
 homepage: "https://www.cj.com/"
 documentation: "https://www.cj.com/"
 versions:
-  - sha: 528171d511169d16919f42a71dc080ab0c90ba9c
+  - sha: b3b313037125e36504c5bc276c54dc288b394f46
     changeNotes: Initial release.
