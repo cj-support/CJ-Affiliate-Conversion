@@ -1,5 +1,9 @@
 homepage: "https://www.cj.com/"
 documentation: "https://www.cj.com/"
 versions:
+  #newVersion
+  - sha: 4b10f081abb8947ff1950714c8c312179bc0afb4
+  - changeNotes: Updated logo and code that reads 'cjevent' in referring url.
+  #oldVersion
   - sha: 229a1e8fcc6c4b38431c3bee86f26ececb4ed0bb
     changeNotes: Initial release.
