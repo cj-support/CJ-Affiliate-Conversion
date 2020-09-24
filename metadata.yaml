@@ -2,8 +2,8 @@ homepage: "https://www.cj.com/"
 documentation: "https://www.cj.com/"
 versions:
   #Latest version
+  - sha: 70a9185e6d1e57b8def7fb1ebe97268bc8fcae48
+    changeNotes: Added order id verification.
+  #Older versions
   - sha: 4b10f081abb8947ff1950714c8c312179bc0afb4
     changeNotes: Updated logo and code that reads 'cjevent' in referring url.
-  #Older versions
-  - sha: 229a1e8fcc6c4b38431c3bee86f26ececb4ed0bb
-    changeNotes: Initial release.
