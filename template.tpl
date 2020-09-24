@@ -296,6 +296,8 @@ var conversionName = data.conversionName;
 var orderSubTotal = data.orderSubTotal;
 var sku = data.conversionName;
 var quantity = '1';
+if (orderID == undefined){
+  orderID='';}
 var cjSrc = 'https://www.emjcd.com/u?CID=' + encodeUriComponent(companyID) + '&OID=' + encodeUriComponent(orderID) + '&TYPE=' + encodeUriComponent(actionID) + '&CURRENCY=' + encodeUriComponent(currency) + '&CJEVENT='+ eventID + '&COUPON='+ encodeUriComponent(coupon) + '&DISCOUNT=' + encodeUriComponent(wholeOrderDiscount) + '&METHOD=IMG';
 
 if(skuList.length > 0 && priceList.length > 0 && skuList.length > 0){
