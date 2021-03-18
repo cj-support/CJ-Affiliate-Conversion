@@ -2,8 +2,14 @@ homepage: "https://www.cj.com/"
 documentation: "https://www.cj.com/"
 versions:
   #Latest version
-  - sha: 70a9185e6d1e57b8def7fb1ebe97268bc8fcae48
-    changeNotes: Added order id verification.
+  - sha: 8332504c17bdcea4464ad2c91def584170c920fb
+    changeNotes: |2
+      Added order toggle.
+      Item Level Discount parameter added (DCNT).
+      Currency Field required.
+      Added support for undefined values.
   #Older versions
   - sha: 4b10f081abb8947ff1950714c8c312179bc0afb4
     changeNotes: Updated logo and code that reads 'cjevent' in referring url.
+  - sha: 70a9185e6d1e57b8def7fb1ebe97268bc8fcae48
+    changeNotes: Added order id verification.
