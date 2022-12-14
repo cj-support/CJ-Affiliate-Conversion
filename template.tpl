@@ -397,7 +397,7 @@ if (currency == undefined){currency= '';}
 
 
 //Build CJ Tag
-var cjSrc = 'https://www.emjcd.com/u?CID=' + encodeUriComponent(companyID) + '&OID=' + orderNumber + '&TYPE=' + encodeUriComponent(actionID) + '&CURRENCY=' + encodeUriComponent(currency) + '&CJEVENT='+ eventID + '&COUPON='+ encodeUriComponent(coupon) + '&DISCOUNT=' + encodeUriComponent(wholeOrderDiscount) + '&METHOD=IMG';
+var cjSrc = 'https://www.emjcd.com/u?CID=' + encodeUriComponent(companyID) + '&OID=' + orderNumber + '&TYPE=' + encodeUriComponent(actionID) + '&CURRENCY=' + encodeUriComponent(currency) + '&CJEVENT='+ eventID + '&COUPON='+ encodeUriComponent(coupon) + '&DISCOUNT=' + encodeUriComponent(wholeOrderDiscount) + '&METHOD=IMG' + '&trackingSource=gtm' + '&v=conversionTag';
 
 //Add item level data to CJ Tag if item level data is input by client and is not empty
 if(skuList.length >0 && priceList.length >0 && quantityList.length >0){
